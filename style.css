@@ -1,0 +1,13 @@
+body {
+  background-color: #99f0ff;
+  display: grid;
+  grid: 100px 1fr 1fr/1fr 1fr 1fr;
+}
+
+.qouter-wrapper {
+  text-align: center;
+  grid-area: 2/2;
+  border: 1px solid #FFF;
+}
+
+/*# sourceMappingURL=style.css.map */

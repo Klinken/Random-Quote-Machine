@@ -1,0 +1,15 @@
+$background: rgb(153, 240, 255);
+
+
+body {
+    background-color: $background;
+    display: grid;
+    grid: 100px 1fr 1fr / 1fr 1fr 1fr;
+}
+
+
+.qouter-wrapper {
+    text-align: center;
+    grid-area: 2 / 2;
+    border: 1px solid #FFF;
+}
