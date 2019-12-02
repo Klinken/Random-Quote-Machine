@@ -1,15 +1,20 @@
-$background: rgb(153, 240, 255);
+$background-blue: rgb(153, 240, 255);
+$font-family: 'Tomorrow', sans-serif;
 
 
 body {
-    background-color: $background;
+    background-color: #FFF;
     display: grid;
     grid: 100px 1fr 1fr / 1fr 1fr 1fr;
 }
 
 
-.qouter-wrapper {
+#quote-box {
+    font-family: $font-family;
+    background-color: $background-blue;
     text-align: center;
     grid-area: 2 / 2;
-    border: 1px solid #FFF;
+    border: 2px solid gray;
+    padding: 10px 25px;
+    border-radius: 10px;
 }

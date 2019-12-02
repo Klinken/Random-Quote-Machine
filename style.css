@@ -1,13 +1,17 @@
 body {
-  background-color: #99f0ff;
+  background-color: #FFF;
   display: grid;
   grid: 100px 1fr 1fr/1fr 1fr 1fr;
 }
 
-.qouter-wrapper {
+#quote-box {
+  font-family: "Tomorrow", sans-serif;
+  background-color: #99f0ff;
   text-align: center;
   grid-area: 2/2;
-  border: 1px solid #FFF;
+  border: 2px solid gray;
+  padding: 10px 25px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
