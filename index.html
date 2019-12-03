@@ -1,29 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to the random qouter</title>
+    <!-- STYLING -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Tomorrow:400,500,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow:400,500,700&display=swap" rel="stylesheet">
+    <!-- SCRIPTS -->
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="quoter.js" async></script>
 </head>
-<body>
 
-    <div id="quote-box">
-        <h1>The qouting machine!</h1>
-    
-        <div class="the-qoute-area">
-        <p id="text"></p>
-        <p id="author"></p>
-            
-        <button id="new-quote">Qoute me up!</button>
-        <a id="tweet-quote" href="https://twitter.com/intent/tweet?text=Hello%20world">Tweet</a>
+<body class="container-fluid">
+
+    <div id="quote-box" class="row justify-content-center">
+        <div class="jumbotron col-lg-4 text-center">
+
+            <h1>The qouting machine!</h1>
+
+            <hr />
+
+            <div class="the-qoute-area">
+
+                <p id="text"></p>
+
+                <p id="author"></p>
+
+                <button id="new-quote" type="button" class="btn btn-primary btn-lg">
+                    Qoute me up!
+                </button>
+
+                <!-- The twitter link will load in the div -->
+                <div id="link-wrapper"></div>
+
+            </div>
         </div>
-    
     </div>
+
+    <!-- JUST A TESTER FROM FREECODECAMP -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
