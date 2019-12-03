@@ -1,20 +1,20 @@
-$background-blue: rgb(153, 240, 255);
 $font-family: 'Tomorrow', sans-serif;
+$margin-top: 30px;
 
 
-body {
-    background-color: #FFF;
-    display: grid;
-    grid: 100px 1fr 1fr / 1fr 1fr 1fr;
+* {
+    font-family: $font-family;
 }
 
 
 #quote-box {
-    font-family: $font-family;
-    background-color: $background-blue;
-    text-align: center;
-    grid-area: 2 / 2;
-    border: 2px solid gray;
-    padding: 10px 25px;
-    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#new-quote {
+    margin-top: $margin-top / 2;
+}
+
+#link-wrapper {
+    margin-top: $margin-top;
 }
